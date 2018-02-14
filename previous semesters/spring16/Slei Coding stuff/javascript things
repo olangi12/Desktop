@@ -1,0 +1,41 @@
+var x = 50;
+var y = 25;
+if (x > y) {
+	console.log ("Hello!")
+} else {
+	console.log ("This will never run.")
+}
+
+if (prompt("How's life?") === "good" ) {
+	console.log ("Good.")
+} else {
+	console.log ("Try getting some sleep.")
+}
+
+if (prompt ("What's the secret #?") === "3") {
+	console.log ("Toyure in.")
+} else {
+	window.location = "http://www.google.com"
+}
+
+var hero, bad_guy
+hero = "strong"
+if (hero === "strong") {
+	if (bad_guy === "weak") {
+		console.log("An easy victory!")
+	}
+	console.log("A crushing defeat!")
+}
+
+var response, img_path
+	secret_saying = document.querySelector('#message').textContent
+if (secret_saying === "An eagle flies at Midnight" ) {
+	response = "You may pass."
+	image_path = "/Users/missionbit/Desktop/Slei Coding stuff/imgur turtle.jpg"
+} else {
+	response = "Release the hounds!"
+	image_path = "/Users/missionbit/Desktop/Slei Coding stuff/turtle.jpg"
+}
+	
+document.querySelector('#result').textContent = response
+document.querySelector('img').src = image_path

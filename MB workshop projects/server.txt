@@ -1,0 +1,18 @@
+Maze Roll
+
+A WebGL maze game built with Three.js and Box2dWeb.
+
+Launching
+
+There are several ways to launch the game. Here is the simplest:
+
+Clone or download the repository
+Navigate to Astray's directory
+cd /Users/missionbit/Desktop/MB\ workshop\ projects/maze_roll-master
+Start 'python -m SimpleHTTPServer' in your shell
+Open 'localhost:8000' in your browser
+
+control-c to quit server
+
+Enjoy!
+License
